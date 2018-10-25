@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#desktop{
+    width: 100%;
+    background: #f3f3f3;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+a:hover{
+	color: #cd3333;
+}
+input{
+	outline: none;
+}
+.ipos{
+	position: relative;
+}
+.icon-size{
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/header/sprite-icons.a1a8f705.png);
+}
+.typ-cnv{
+	display: inline-block;
+}

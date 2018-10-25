@@ -1,0 +1,119 @@
+#header{
+    height: 40px;
+    background:black; 
+    border-bottom: 3px solid #cd3333;
+}
+#header-content{
+    margin: 0 auto;
+    width:968px;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+}
+.header-opts>li{
+	float: right;
+}
+.header-opts-left{
+	position: absolute;
+	right: 70px;
+	padding: 0 20px;
+}
+.header-opts-right{
+	position: absolute;
+	right: 0px;
+	width: 70px;
+	background: #cd3333;
+}
+.header-nav>li{
+    float: left;
+}
+.beta{
+	display: inline-block;
+	position: absolute;
+	top: -3px;
+	font-size: 10px;
+	color:#cd3333;
+	height: 40px;
+}
+#header a{
+    font-size: 15px;
+    text-decoration: none;
+    color:white;
+}
+#header a:hover{
+	color:#cd3333;
+}
+#header .header-opts-right:hover{
+	color: white;
+	background: red;
+}
+.homepage>a{
+	padding:1px 20px 0px 0px;
+}
+.header-nav>li:nth-child(2)>a{
+	padding: 0px 40px 0px 20px;
+}
+.header-nav>li:nth-child(3)>a{
+	padding: 0px 20px 0px;
+}
+.header-nav>li:last-child>a{
+	padding: 0px 20px 0px;
+}
+.homepage>a::before{
+	content: "";
+	display: block;
+	float: left;
+	margin-top: 12px;
+	margin-left: 15px;
+	width: 18px;
+	height: 17px;
+	background-image: url(../img/header/sprite-icons.a1a8f705.png);
+	background-position: -20px -522px;
+}
+.homepage-l{
+	float: left;
+	padding: 0 20px;
+}
+.login-img{
+	display: inline-block;
+	width: 18px;
+	height: 17px;
+	background-image: url(../img/header/sprite-icons.a1a8f705.png);
+	background-position: -112px -498px;
+}
+.login-img:hover{
+	background-image: url(../img/header/sprite-icons.a1a8f705.png);
+	background-position: -20px -522px;
+}
+.header-opts form{
+	position: relative;
+	width: 130px;
+	height: 40px;
+	right: 100px;
+}
+.header-opts input{
+	width: 86px;
+	height: 29px;
+	border-radius: 20px;
+	padding: 0 34px 0 10px;
+	border: none;
+}
+.header-opts .icon{
+	top: 164px;
+	right: 245px;
+	border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.header-opts .icon::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	width: 18px;
+	height: 18px;
+	background-image: url(../img/header/sprite-icons.a1a8f705.png);
+	background-position: -536px -140px;
+}

@@ -21,7 +21,7 @@
 .about-us>a{
 	color: #616161;
 }
-.about-us a:not(:first-child):before{
+.about-us>a:first-child~a:before{
 	content: "";
 	position: relative;
 	display: inline-block;

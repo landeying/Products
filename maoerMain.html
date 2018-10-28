@@ -12,7 +12,7 @@
 </head>
 <body id="desktop">
     <div id="header">
-        <div id="header-content" >
+        <div id="header-content">
             <div class="nav">
                 <ul class="header-nav">
                     <li class="homepage">
@@ -36,6 +36,7 @@
                         <a href="#" class="header-opts-right">投稿</a>
                     </li>
                </ul> 
+               <!--搜索框-->
                <form>
 	    			<input type="text" autocomplete="off" placeholder="搜索音频、声优、音单、用户" />
 	    			<div class="icon" title="搜索"></div>
@@ -43,24 +44,84 @@
             </div>
         </div>
     	<div id="header-nav">
-    		<!--搜索框-->
     		<div class="nav-top">
-    			<div class="top-pic"></div>
-	    		
+    			<div class="top-pic"></div>		
     		</div>
     		<!--顶部目录-->
     		<div class="nav-main">
     			<div class="nav-topcatalog">
     				<div class="topcatalog"><a href="#">首页</a></div>
-    				<div class="topcatalog"><a href="#">有声漫画</a></div>
-    				<div class="topcatalog"><a href="#">广播剧</a></div>
-    				<div class="topcatalog"><a href="#">音乐</a></div>
-    				<div class="topcatalog"><a href="#">催眠</a></div>
-    				<div class="topcatalog"><a href="#">娱乐</a></div>
-    				<div class="topcatalog"><a href="#">日抓</a></div>
-    				<div class="topcatalog"><a href="#">听书</a></div>
-    				<div class="topcatalog"><a href="#">配音</a></div>
-    				<div class="topcatalog"><a href="#">铃声</a></div>
+    				<div class="topcatalog">
+    					<a href="#">有声漫画</a>
+    					<div class="subnav">
+    						<a href="">有声漫画</a>
+    					</div>
+    				</div>
+    				<div class="topcatalog">
+    					<a href="#">广播剧</a>
+    					<div class="subnav">
+    						<a href="#">纯爱（中文）</a>
+	    					<a href="#">言情</a>
+	    					<a href="#"> 全年龄</a>
+    					</div>
+    				</div>
+    				<div class="topcatalog">
+    					<a href="#">音乐</a>
+    					<div class="subnav">
+    						<a>原创音乐</a>
+    						<a>翻唱</a>
+    						<a>Vocaloid</a>
+    						<a>三次元音乐</a>
+    						<a>演奏创作</a>
+    					</div>
+    				</div>
+    				<div class="topcatalog">
+    					<a href="#">催眠</a>
+    					<div class="subnav">
+    						<a>催眠无人声</a>
+    					</div>
+    				</div>
+    				<div class="topcatalog">
+    					<a href="#">娱乐</a>
+    					<div class="subnav">
+    						<a>萌妹</a>
+    						<a>鬼畜/搞笑</a>
+    						<a>电台</a>
+    						<a>怪谈</a>
+    					</div>
+    				</div>
+    				<div class="topcatalog">
+    					<a href="#">日抓</a>
+    					<div class="subnav">
+    						<a>一般</a>
+    					</div>
+    				</div>
+    				<div class="topcatalog">
+    					<a href="#">听书</a>
+    					<div class="subnav">
+    						<a>轻小说</a>
+    						<a>网络小说</a>
+    						<a>儿童</a>
+    					</div>
+    				</div>
+    				<div class="topcatalog">
+    					<a href="#">配音</a>
+    					<div class="subnav">
+    						<a>中文配音</a>
+    							<a>日文及其他</a>
+    							<a>角色录音</a>
+    							<a>声优录音</a>
+    							<a>其他录音</a>
+    					</div>
+    				</div>
+    				<div class="topcatalog">
+    					<a href="#">铃声</a>
+    					<div class="subnav">
+    						<a>来电</a>
+    						<a>短信</a>
+    						<a>闹铃</a>
+    					</div>
+    				</div>
     				<div class="topcatalog">
     					<a href="#">
     						<div class="topcatalog-broadcast-img"></div>
@@ -79,6 +140,16 @@
     					</a>
     				</div>
     			</div>		
+    							
+    						</ul>
+    					</li>
+    					<li>
+    						<ul>
+    							
+    						</ul>
+    					</li>
+    				</ul>
+    			</div>
     		</div>
     	</div>
     </div>
@@ -157,13 +228,13 @@
     		<div id="show-area" >
     			<!-- 首页左侧栏人气作品展示区 -->
     			<div class="area-left">
-    				<div class="front-page-left" >
-    					<div >
+    				<div class="front-page-left">
+    					<div>
     						<i class="floatLeft"></i>
     						<span class="floatLeft"><h3>人气推荐</h3></span>
     					</div>
     					<ul>
-    						<li class="floatLeft  area-active">三日</li>
+    						<li class="floatLeft area-active">三日</li>
     						<li class="floatLeft">本周</li>
     						<li class="floatLeft">本月</li>
     					</ul>
@@ -227,7 +298,7 @@
 							<div class="floatLeft brc-pic">
 								<a href="" title="【翼之声】《以色为饵》第三期（彩虹）">
 									<div>
-										<img src="img/body/week/2 (2).jpg" >
+										<img src="img/body/week/2 (2).jpg">
 									</div>
 								</a>	
 								<div>
@@ -239,8 +310,8 @@
 									<div>
 										<img src="img/body/week/2 (4).jpg" >
 									</div>
-								</a> class="cal-r-btm-title">
-								<div>
+								</a>
+								<div class="cal-r-btm-title">
 									<a href="#" title="【动态漫画】《百层塔》——是男人就上一百层！">【动态漫画】《百层塔》——是男人就上一百层！ </a>
 								</div>				
 							</div>
@@ -303,10 +374,12 @@
     			<!-- 首页右侧栏声优推荐区 -->
     			</div>
     			<div class="mass-org">
-    				<a href="#">声优 / 社团广场</a>
-    				<a href="#">
-    					<img src="img/square.png" title="声优广场" />
-    				</a>
+    				<div>
+    					<h3>声优 / 社团广场</h3>
+    					<a href="#">
+    						<img src="img/square.png" title="声优广场" />
+    					</a>
+    				</div>
     			</div>
     		</div>
     		<div></div>
@@ -347,7 +420,7 @@
     	</p>
     	<p class="footer-row ">京ICP备: 14055174号-1 |
     		<a href="#" class="baicon">
-    			<img src="img/beianicon.png" alt="京公网安备11010502034762号" />
+    			<img src="img/beianicon.png" alt="京公网安备11010502034762号"/>
     			京公网安备 11010502034762号
     		</a>
     	</p>

@@ -215,3 +215,12 @@
 #show-area .area-active{
 	background: #ccd0d7;
 }
+.mass-org>div{
+	margin-left: 31px;
+}
+.mass-org>div>h3{
+	cursor: pointer;
+	display: block;
+	height: 42px;
+	padding-top: 7px;
+}

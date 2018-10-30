@@ -230,7 +230,17 @@
 	color: #cd3333;
 }
 #header-nav .subnav{
-	height: 100%;
-	background: pink;
+	background:white;
 	width: 100px;
+	position: absolute;
+	display: none;
+	box-shadow:  0 2px 5px white;
+	font-size: 12px;
+}
+#header-nav .subnav .subitem-left{
+	float: left;
+	width: 4px;
+	height: 4px;
+	background: #333;
+	border-radius: 100%;
 }

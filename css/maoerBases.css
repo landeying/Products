@@ -30,3 +30,10 @@ input{
 .typ-cnv{
 	display: inline-block;
 }
+.show-icon{
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+	background-image: url(../img/body/catalog_icons.png);
+}

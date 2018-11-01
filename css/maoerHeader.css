@@ -109,15 +109,12 @@
 	border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.header-opts .icon::before{
-	content: "";
-	display: block;
+.header-opts .icon::before{	
 	position: absolute;
 	top: 12px;
 	right: 10px;
 	width: 18px;
-	height: 18px;
-	background-image: url(../img/header/sprite-icons.a1a8f705.png);
+	height: 18px;	
 	background-position: -536px -140px;
 }
 #header-nav{
@@ -163,14 +160,11 @@
     border-bottom-right-radius: 20px;
 }
 #header-content>div.nav>form>.icon::before{
-	content: "";
-	display: block;
 	position: absolute;
 	top: 13px;
 	right: 10px;
 	width: 18px;
 	height: 18px;
-	background-image: url(../img/header/sprite-icons.a1a8f705.png);
 	background-position: -536px -140px;
 }
 .nav-main{

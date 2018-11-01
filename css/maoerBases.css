@@ -9,6 +9,7 @@
 }
 a{
 	text-decoration: none;
+	color: black;
 }
 li{
 	list-style: none;
@@ -36,4 +37,9 @@ input{
 	height: 25px;
 	margin-right: 10px;
 	background-image: url(../img/body/catalog_icons.png);
+}
+.icon-common::before{
+	display: inline-block;
+	content: "";	
+	background-image: url(../img/header/sprite-icons.a1a8f705.png);
 }

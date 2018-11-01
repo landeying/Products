@@ -121,11 +121,8 @@
     overflow: hidden;
 }
 #carousel-right .cal-r-top>a::before{
-	content: "";
-	display: block;
 	width: 50px;
 	height: 20px;
-	background-image: url(../img/header/sprite-icons.a1a8f705.png);
 	background-position: -148px -332px;
 	position: absolute;
 	left: 0;
@@ -259,7 +256,7 @@ div.mass-org>div.maoer-bf img{
 }
 .rl-top{
 	width: 100%;
-	height: 100%;
+	height: 20px;
 	padding: 10px 0;
 }
 .rl-top>span{
@@ -283,7 +280,77 @@ div.mass-org>div.maoer-bf img{
 .rl-list>li:last-child{
 	border-radius: 0 3px 3px 0;
 }
+.rl-middle{
+	font-size: 12px;
+}
 .rl-middle img{
+	display: inline-block;
 	width: 50px;
 	border-radius: 3px;
+}
+.rl-middle li{
+	margin: 10px 0;
+}
+.rl-color,.rl-color-g{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	color: white;
+	text-align: center;
+	line-height: 16px;
+	font-size: 12px;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+.rl-color-g{
+	background: #dbdbdb;
+}
+.rl-color{
+	background: #cd3333;
+}
+.rl-one-main{
+	display: flex;
+	justify-content: space-between;
+}
+.rl-one-main>a.rl-pic>div{
+	display: inline-block;
+}
+.rl-contant{
+	width:69%;
+}
+.rl-one-main>a.rl-pic>.rl-color{
+	position: relative;
+	top: -37px;
+}
+.rl-intr>a>span{
+	display: inline-block;
+	height: 16px;
+	width: 235px;
+	overflow: hidden;
+	padding-top:2px;
+	position: relative;
+	top: 3px;
+}
+a.rl-btn-more{
+	display: block;
+	height: 24px;
+	text-align: center;
+	line-height: 25px;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	font-size: 10px;
+	color:#666;
+}
+a.rl-btn-more:hover{
+	background:#dbdbdb ;
+}
+.rl-icon-radio:before{
+	width: 18px;
+	height: 18px;
+	background-position:-372px -494px ;
+}
+.rl-icon-readed:before{
+	width: 18px;
+	height: 18px;
+	background-position:-390px -495px ;
 }

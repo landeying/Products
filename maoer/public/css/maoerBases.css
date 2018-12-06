@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#desktop{
+	min-width: 990px;
+	width:100%;
+    background: #f3f3f3;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	list-style: none;
+}
+a:hover{
+	color: #cd3333;
+}
+input{
+	outline: none;
+}
+.ipos{
+	position: relative;
+}
+.icon-size{
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/header/sprite-icons.a1a8f705.png);
+}
+.typ-cnv{
+	display: inline-block;
+}
+.show-icon{
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+	background-image: url(../img/body/catalog_icons.png);
+}
+.icon-common::before{
+	display: inline-block;
+	content: "";	
+	background-image: url(../img/header/sprite-icons.a1a8f705.png);
+}
